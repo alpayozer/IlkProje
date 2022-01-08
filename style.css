@@ -1,0 +1,164 @@
+   /* Add a black background color to the top navigation */
+   .topnav {
+    background-color: #030033;
+    overflow:hidden;
+    padding-bottom: 30px;
+    height: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav .a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+  
+        left: 40px;
+        top: 25px;
+  }
+  .topnav .b {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+  
+        left: 700px;
+        top: 35px;
+  }
+  .topnav .c {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    text-decoration: none;
+    font-size: 20PX;
+    position: absolute;
+  
+        left: 850px;
+        top: 35px;
+  }
+  .topnav .d {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top:0.5%;
+    text-decoration: none;
+    font-size: 20PX;
+    position: absolute;
+  
+        left: 950px;
+        top: 35px;
+    
+  }
+  .topnav .e {
+    float:right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 35px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius:50px;
+    position: absolute;
+  
+        left: 1600px;
+        top: 35px;
+  }
+  
+  #example1 {
+    border: 1px; 
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+  }
+  
+  .blue{
+    background-color: #0088A9;
+    color: white;
+  }
+  .yellow{
+    background-color: #EED88B;
+    color: white;
+  }
+   
+  .image{
+    position: relative;
+    width:50px;
+  }
+  h1{
+    position: absolute;
+    padding:10%;
+    top: 200px;
+    left: 100px;
+    color: #2CB6B4;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAACVBMVEX////+/v79/f0fdq9OAAADBklEQVR4nO3d4XaCMAyGYeH+L3pHmVulTUgLJW18v/3ZcVLyUKwFkT0ehBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIZdnecW7ip75EqF3EV1DH06fJXYfLsv6lyuRS54LW6+rpIuwAIwlfLYaWbi8Go0tXAcVrr9lnKhlW35r7PljJXbkfwjfG/5Ea8vy2WJpyLl3GEJY3RxChJdnJ9ySVFvR0B63Z5b/dnqjHhemC82r1hDreMKGvee4n0YStrw+5hImq0ZoEjqONNla81qOR3e1/sN0npA3Cz8aOSPsfcjR3odZxgS6C/sfNDYL9WXGARqEhh5rFt5x2F9YaVruUtgGpUJrhTee0UCIEOGwwvds1Va4INQOFu/RPVckCbUJubCM/o6Stn1XngUgRIhwROFvLXaeTM4euc+W5JwEIUKEEwnvHkW7C4UgnFoYfi+N/zp0vCoQ4WqZo2qzbYQIEV4gNBwKHwLHFkp9mF60uSMWTiwOLRSA5cMHoSdnFOZXVyBEiLCvsPLShXxrhBf6Ac3CtPKYfRhfmD4b4ZRC86VfJafvFxsRIkSIcG5hcmEVQoQIEb4rKfz2idxDD+D/C44hLNS2N1Z2bfK0IYTHp64RIows9APWCQtmE3CY86UIESJ0FwrFBRLWRQKJm8kL2SzMifMKhd02jlB6YQYSCs+LJjRMSbNHBxVmhQtRO1W96w1ChAgRWoXClwtV4dl7MjbFDKqKevcphAgRfrVQGBjrhthye45OoaDsYYRTCNlLwwoD9aFaXItQDUKECBHGFAqD++XC22wIESIcUHhMPOFsuY19J2efnnRR3Sp0JyJEOL7wFYOwDu4NyoIQIUL/xBduyQs9poyvSqMBLe+H3vUf52QfziiM34fxheFGmizqR0jexV2SLxBG2ymtiS+s/BeeMya+0CHxhwGE8wfhnFEnHAJ5ro2AEKFv9ZYgnFOoIgz3ERlfqBIRPhAOkfBCDTi9UMW1xBuUBSFChJ653DaQcCvF/PkdQoQOQTi1MLH9f/J66bD6A8aYXPhdyApPAAAAAElFTkSuQmCC);
+  }
+  .yazi{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .yazi:hover {
+    background-color: #a90000!important;
+    color: white;
+    font-size: 100px;
+  }
+  .hoverClass a button:hover{
+    background-color: #a90000!important;
+    color: white;
+    font-size: 100px;
+  }
+  .hoverClass{
+    text-align: center;
+    width: 100%;
+    background-color: darkcyan;
+  }
+
+
+
+  @media only screen and (max-width: 1400px){
+    .hoverClass a button{
+      background-color: yellow!important;
+    }
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 768px){
+  .hoverClass a button{
+    background-color: red!important;
+  }
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+  .hoverClass a button{
+    background-color: blue!important;
+  }
+}
